@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务列表 - QLQuest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        .quest-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 5px solid #4CAF50;
+        }
+
+        .quest-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .quest-id {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .quest-desc {
+            color: #444;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .cmd {
+            background: #eef;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-family: monospace;
+            color: #0066cc;
+            display: inline-block;
+            margin: 3px 0;
+        }
+
+        .tag {
+            background: #ffeeba;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: #856406;
+            display: inline-block;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">QLQuest 任务列表</h1>
+    <div id="questList"></div>
+</div>
+
+<script>
+// ====================== 你的任务数据（可随便增删改）======================
+const questData = [
+    {
+        name: "Explore South Season 1",
+        questId: "explore_south_s1",
+        description: "Explore South!",
+        diffculty: "2/10",
+        command: "/qlquest start explore_south_s1",
+        qp: "50"
+    },
+    {
+        name: "xz's challenge",
+        questId: "xzs_challenge",
+        description: "",
+        diffculty: "7/10",
+        command: "/qlquest start xzs_challenge",
+        qp: "600"
+    }
+]
+
+// ====================== 自动渲染到页面 ======================
+const list = document.getElementById("questList")
+
+questData.forEach(quest => {
+    const card = document.createElement("div")
+    card.className = "quest-card"
+
+    card.innerHTML = `
+        <div class="quest-name">${quest.name}</div>
+        <div class="quest-id">任务ID：${quest.questId}</div>
+        <div class="quest-desc">${quest.description}</div>
+        <div>
+            <strong>难度：</strong>
+            <span class="cmd">${quest.diffculty}</span>
+        </div>
+        <div>
+            <strong>执行指令：</strong>
+            <span class="cmd">${quest.command}</span>
+        </div>
+        <div style="margin-top:5px;">
+            <strong>QP：</strong>
+            <span class="tag">${quest.qp}</span>
+        </div>
+    `
+    list.appendChild(card)
+})
+</script>
+
+</body>
+</html>

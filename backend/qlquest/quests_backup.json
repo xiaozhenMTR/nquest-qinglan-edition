@@ -1,0 +1,13 @@
+[
+    {
+        "questId": "test_quest",
+        "questName": "Ride-along Akiha Ocean Line",
+        "qpReward": 50,
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "warp to Qingyun Square and press the button to start the quest!"
+            }
+        ]
+    }
+]

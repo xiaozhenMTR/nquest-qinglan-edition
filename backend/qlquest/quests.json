@@ -1,0 +1,216 @@
+[
+    {
+        "questId": "explore_south_s1",
+        "questName": "Explore South Season 1",
+        "qpReward": 50,
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "Visit Chen Kuan Hsi"
+            },
+            {
+                "code": 2,
+                "bossbarText": "Complete parkour at Tsuen Wan East"
+            },
+            {
+                "code": 3,
+                "bossbarText": "Visit Yokan"
+            },
+            {
+                "code": 4,
+                "bossbarText": "Visit Hesheng"
+            }
+        ],
+        "type": "repeatable"
+    },
+    {
+        "questId": "xzs_challenge",
+        "questName": "xz' s challenge",
+        "qpReward": 600,
+        "type": "repeatable",
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "Warp to Wudu and press the button to start the quest",
+                "teleport": false
+            },
+            {
+                "code": 2,
+                "bossbarText": "Visit Kunyang Footbridge",
+                "teleport": false
+            },
+            {
+                "code": 3,
+                "bossbarText": "Visit QB North",
+                "teleport": false
+            },
+            {
+                "code": 4,
+                "bossbarText": "Visit Warm Springs Exit A",
+                "teleport": false
+            },
+            {
+                "code": 5,
+                "bossbarText": "Visit Nebula Changbian",
+                "teleport": false
+            },
+            {
+                "code": 6,
+                "bossbarText": "Visit Nansha",
+                "teleport": false
+            },
+            {
+                "code": 7,
+                "bossbarText": "Visit Sakura Valley",
+                "teleport": false
+            },
+            {
+                "code": 8,
+                "bossbarText": "Visit Qinglan 6th Middle School Exit A",
+                "teleport": false
+            },
+            {
+                "code": 9,
+                "bossbarText": "Visit Chung Chih Shih Exit A2",
+                "teleport": false
+            },
+            {
+                "code": 10,
+                "bossbarText": "Ride Wuhai Line North Bound to Wudu Central",
+                "teleport": false
+            }
+        ]
+    },
+    {
+        "questId": "tsuen_wan_tower_parkour",
+        "questName": "Tsuen Wan Tower Parkour",
+        "qpReward": 10,
+        "type": "repeatable",
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "visit Tsuen Wan Tower",
+                "teleport": false
+            },
+            {
+                "code": 2,
+                "bossbarText": "Complete the parkour",
+                "teleport": false
+            }
+        ]
+    },
+    {
+        "questId": "hub_stations",
+        "questName": "Hub Stations",
+        "qpReward": 200,
+        "type": "repeatable",
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "Visit Qingyun Square",
+                "teleport": false
+            },
+            {
+                "code": 2,
+                "bossbarText": "Ride Akiha Ocean Line to Qiangbin transport junction",
+                "teleport": false
+            },
+            {
+                "code": 3,
+                "bossbarText": "Ride Line 17 to Hesheng",
+                "teleport": false
+            },
+            {
+                "code": 4,
+                "bossbarText": "Visit Sesho-Kita",
+                "teleport": false
+            },
+            {
+                "code": 5,
+                "bossbarText": "Visit Wudu",
+                "teleport": false
+            },
+            {
+                "code": 6,
+                "bossbarText": "Ride Nansai Railway to Xiyuyuan Devota",
+                "teleport": false
+            }
+        ]
+    },
+    {
+        "questId": "3parkours_in_lanshan",
+        "questName": "3 Parkours in Lanshan",
+        "qpReward": 500,
+        "type": "repeatable",
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "Visit Lanshan",
+                "teleport": false
+            },
+            {
+                "code": 2,
+                "bossbarText": "Complete Parkour in Lanshan Tower",
+                "teleport": false
+            },
+            {
+                "code": 3,
+                "bossbarText": "Reach checkpoint 1 in Lanshan High Tower",
+                "teleport": false
+            },
+            {
+                "code": 4,
+                "bossbarText": "Reach checkpoint 2 in Lanshan High Tower",
+                "teleport": false
+            },
+            {
+                "code": 5,
+                "bossbarText": "Reach checkpoint 3 in Lanshan High Tower",
+                "teleport": false
+            },
+            {
+                "code": 6,
+                "bossbarText": "Reach checkpoint 4 in Lanshan High Tower",
+                "teleport": false
+            },
+            {
+                "code": 7,
+                "bossbarText": "Reach Lanshan Nan Parkour Start Point",
+                "teleport": false
+            },
+            {
+                "code": 8,
+                "bossbarText": "Reach checkpoint 1 in Lanshan Nan Parkour",
+                "teleport": false
+            },
+            {
+                "code": 9,
+                "bossbarText": "Reach checkpoint 2 in Lanshan Nan Parkour",
+                "teleport": false
+            },
+            {
+                "code": 10,
+                "bossbarText": "Reach checkpoint 3 in Lanshan Nan Parkour",
+                "teleport": false
+            }
+        ]
+    },
+    {
+        "questId": "tsuen_wan_parkour_building_c",
+        "questName": "Tsuen Wan Parkour Building (Comprehensive)",
+        "qpReward": 300,
+        "type": "repeatable",
+        "points": [
+            {
+                "code": 1,
+                "bossbarText": "Click the start point button",
+                "teleport": false
+            },
+            {
+                "code": 2,
+                "bossbarText": "Complete the pakour",
+                "teleport": false
+            }
+        ]
+    }
+]

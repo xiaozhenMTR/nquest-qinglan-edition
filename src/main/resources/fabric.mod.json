@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "nquest-qinglan-edition",
+	"version": "${version}",
+	"name": "NQuest Qinglan Edition",
+	"description": "NQuest Mod for Qinglan Server",
+	"authors": [
+		"lokraf"
+	],
+	"contact": {
+		"homepage": "https://liyuzhen.cn/qinglan/wiki",
+		"sources": "https://github.com/xiaozhenMTR/QinglanQuestMod"
+	},
+	"license": "MIT",
+	"icon": "assets/nquest-qinglan-edition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xz.nquestql.NQuestQinglanEdition"
+		],
+		"client": [
+			"com.xz.nquestql.NQuestQinglanEditionClient"
+		]
+	},
+	"mixins": [
+		"nquest-qinglan-edition.mixins.json"
+	],
+	"accessWidener": "nquest-qinglan-edition.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"mtr": ">=4.0.0"
+	}
+}

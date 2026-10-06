@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"package": "com.xz.nquestql.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin",
+        "ServerPlayerEntityMixin",
+				"ChatDisplayNameMixin",
+		"mtr.SidingAccessor",
+		"mtr.VehicleAccessor",
+		"mtr.VehicleSchemaAccessor",
+		"mtr.SimulatorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
